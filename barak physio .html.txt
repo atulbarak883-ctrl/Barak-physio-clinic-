@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Barak Physio & Ortho Clinic</title>
+</head>
+<body>
+    <h1>Welcome to Barak Physio & Ortho Clinic</h1>
+    <p>Professional Physiotherapy & Orthopedic Care</p>
+</body>
+</html>
