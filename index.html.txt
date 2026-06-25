@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barak Physio and Ortho Rehabilitation Centre</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:
+    linear-gradient(rgba(0,70,100,0.75),
+    rgba(0,120,140,0.75)),
+    url('https://images.unsplash.com/photo-1576091160550-2173dba999ef');
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    color:white;
+}
+
+/* Navigation */
+nav{
+    background:rgba(0,0,0,0.3);
+    padding:20px;
+    text-align:center;
+}
+
+nav h1{
+    font-size:35px;
+    color:#ffffff;
+}
+
+/* Hero Section */
+.hero{
+    min-height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h2{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    max-width:700px;
+    line-height:1.8;
+}
+
+.btn{
+    margin-top:30px;
+    padding:15px 35px;
+    background:#00d4b4;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#0099cc;
+}
+
+/* Services */
+.services{
+    background:rgba(255,255,255,0.1);
+    padding:60px 20px;
+    text-align:center;
+}
+
+.services h2{
+    margin-bottom:40px;
+    font-size:35px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.card{
+    background:rgba(255,255,255,0.15);
+    width:300px;
+    padding:30px;
+    border-radius:20px;
+    backdrop-filter:blur(5px);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#00ffcc;
+}
+
+/* Patient Form */
+.form-section{
+    padding:60px 20px;
+}
+
+.form-container{
+    max-width:700px;
+    margin:auto;
+    background:rgba(255,255,255,0.15);
+    padding:35px;
+    border-radius:20px;
+}
+
+.form-container h2{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+input, textarea, select{
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+    border:none;
+    border-radius:10px;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    background:#00d4b4;
+    border:none;
+    color:white;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0099cc;
+}
+
+/* Footer */
+footer{
+    background:rgba(0,0,0,0.5);
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h1>Barak Physio and Ortho Rehabilitation Centre</h1>
+</nav>
+
+<section class="hero">
+    <h2>Move Better. Live Better.</h2>
+    <p>
+        Expert Physiotherapy and Orthopaedic Rehabilitation Services for
+        post-fracture cases, joint pain, back pain, sports injuries and
+        other orthopaedic conditions.
+    </p>
+    <a href="#form" class="btn">Book Appointment</a>
+</section>
+
+<section class="services">
+    <h2>Our Services</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Physiotherapy</h3>
+            <p>Back pain, neck pain, sports injury rehabilitation and mobility improvement.</p>
+        </div>
+
+        <div class="card">
+            <h3>Ortho Rehabilitation</h3>
+            <p>Post-fracture rehabilitation, joint replacement recovery and orthopaedic care.</p>
+        </div>
+
+        <div class="card">
+            <h3>Pain Management</h3>
+            <p>Personalized treatment plans to reduce pain and improve quality of life.</p>
+        </div>
+    </div>
+</section>
+
+<section class="form-section" id="form">
+    <div class="form-container">
+        <h2>Patient Registration Form</h2>
+
+        <form>
+            <input type="text" placeholder="Patient Name" required>
+            <input type="number" placeholder="Age" required>
+
+            <select required>
+                <option>Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+
+            <input type="text" placeholder="Address">
+            <input type="text" placeholder="Occupation">
+            <textarea placeholder="Chief Complaint"></textarea>
+            <input type="text" placeholder="Duration of Pain">
+            <textarea placeholder="Other Relevant Details"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Barak Physio and Ortho Rehabilitation Centre | Caring for Your Recovery</p>
+</footer>
+
+</body>
+</html>
